@@ -66,5 +66,12 @@
     "preferred-install": "dist"
   },
   "prefer-stable": true,
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "repositories": [
+      {
+        "name": "authority-php/authority",
+        "type": "git",
+        "url": "https://github.com/otepas/authority.git"
+      }
+    ]
 }
